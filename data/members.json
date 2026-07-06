@@ -1,0 +1,7 @@
+[
+  { "id": "kato",     "name": "加藤優祈",   "color": "#FF6B6B", "icon": "/members/kato.jpeg" },
+  { "id": "hiraoka",  "name": "平岡郁人",   "color": "#4ECDC4", "icon": "/members/hiraoka.jpeg" },
+  { "id": "yori",     "name": "依里ただき", "color": "#45B7D1", "icon": "/members/yori.jpeg" },
+  { "id": "aoki",     "name": "青木啓一郎", "color": "#FFEAA7", "icon": "/members/aoki.jpeg" },
+  { "id": "hirose",   "name": "廣瀬匡一郎", "color": "#96CEB4", "icon": "/members/hirose.jpeg" }
+]
