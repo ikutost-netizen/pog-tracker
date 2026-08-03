@@ -162,7 +162,7 @@ function BoardRow({
         />
       </div>
 
-      {/* Name */}
+      {/* Name + nickname */}
       <div className="flex-1 min-w-0">
         <span
           className="text-sm font-bold truncate block"
@@ -170,6 +170,19 @@ function BoardRow({
         >
           {member.name}
         </span>
+        {member.nickname && (
+          <span
+            className="text-xs px-1.5 py-0.5 rounded inline-block mt-0.5"
+            style={{
+              background: isFirst ? "rgba(255,182,39,0.15)" : "rgba(255,255,255,0.05)",
+              color: isFirst ? "var(--amber)" : "var(--text-muted)",
+              fontFamily: "var(--font-noto)",
+              lineHeight: 1.4,
+            }}
+          >
+            {member.nickname}
+          </span>
+        )}
       </div>
 
       {/* Diff — hidden on narrow screens */}

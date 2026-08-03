@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import type { Member, HistoryEntry } from "@/types";
 import StandingsBoard from "@/components/StandingsBoard";
+import MvpHorse from "@/components/MvpHorse";
 import PointChart from "@/components/PointChart";
 import UpdateHistory from "@/components/UpdateHistory";
 
@@ -44,6 +45,7 @@ export default function Home() {
         )}
       </header>
 
+      <MvpHorse members={members} history={history} />
       <StandingsBoard members={members} history={history} />
       <PointChart members={members} history={history} />
       <UpdateHistory history={historyNewestFirst} />
