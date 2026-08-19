@@ -6,10 +6,21 @@ export type Member = {
   icon: string;
 };
 
+export type TitleEntry = {
+  title: string;
+  fromLabel: string;
+};
+
+export type MemberTitleHistory = {
+  memberId: string;
+  titleHistory: TitleEntry[];
+};
+
 export type MvpEntry = {
   horse: string;
   memberId: string;
   points: number;
+  raceName?: string;
 };
 
 export type HistoryEntry = {
@@ -17,6 +28,7 @@ export type HistoryEntry = {
   label: string;
   screenshot: string | null;
   commentary: string;
+  analysis?: string;
   mvp: MvpEntry | null;
   points: Record<string, number>;
 };

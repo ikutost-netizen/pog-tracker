@@ -116,9 +116,30 @@ function HistoryRow({
             {entry.date}
           </span>
         </div>
+
+        {/* 実況 */}
         <p className="text-sm leading-relaxed" style={{ color: "var(--text-primary)" }}>
           {entry.commentary}
         </p>
+
+        {/* 評論家コメント */}
+        {entry.analysis && (
+          <div
+            className="mt-2 pt-2 text-xs leading-relaxed"
+            style={{
+              borderTop: "1px solid rgba(255,255,255,0.06)",
+              color: "var(--text-muted)",
+            }}
+          >
+            <span
+              className="font-bold mr-1.5 text-xs"
+              style={{ color: "rgba(255,182,39,0.6)", fontFamily: "var(--font-chivo)" }}
+            >
+              【評】
+            </span>
+            {entry.analysis}
+          </div>
+        )}
       </div>
     </div>
   );

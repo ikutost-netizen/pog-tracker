@@ -1,0 +1,33 @@
+[
+  {
+    "memberId": "kato",
+    "titleHistory": [
+      { "title": "逆転の男",    "fromLabel": "第9週" },
+      { "title": "孤高の逃げ馬", "fromLabel": "第11週" }
+    ]
+  },
+  {
+    "memberId": "hiraoka",
+    "titleHistory": [
+      { "title": "クラシック職人", "fromLabel": "第7週" }
+    ]
+  },
+  {
+    "memberId": "yori",
+    "titleHistory": [
+      { "title": "シャンデ帝", "fromLabel": "第3週" }
+    ]
+  },
+  {
+    "memberId": "aoki",
+    "titleHistory": [
+      { "title": "遅咲きの獅子", "fromLabel": "第8週" }
+    ]
+  },
+  {
+    "memberId": "hirose",
+    "titleHistory": [
+      { "title": "追い込みの廣瀬", "fromLabel": "第9週" }
+    ]
+  }
+]

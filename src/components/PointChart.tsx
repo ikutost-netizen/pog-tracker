@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
 import {
   LineChart,
   Line,
@@ -127,8 +128,14 @@ function EndDot({ cx, cy, index, dataLength, member }: CustomDotProps) {
   );
 }
 
+type RangeKey = "all" | "8" | "4";
+const RANGE_LABELS: Record<RangeKey, string> = { all: "全期間", "8": "直近8週", "4": "直近4週" };
+
 export default function PointChart({ members, history }: Props) {
-  const data = buildChartData(members, history);
+  const [range, setRange] = useState<RangeKey>("all");
+  const allData = buildChartData(members, history);
+
+  const data = range === "all" ? allData : allData.slice(-Number(range));
   if (data.length === 0) return null;
 
   const maxPoints = Math.max(
@@ -141,12 +148,32 @@ export default function PointChart({ members, history }: Props) {
         className="board-glow rounded-lg p-4"
         style={{ background: "var(--bg-card)" }}
       >
-        <h2
-          className="text-xs font-bold tracking-widest uppercase mb-4"
-          style={{ color: "var(--amber)", fontFamily: "var(--font-chivo)" }}
-        >
-          POINT HISTORY
-        </h2>
+        <div className="flex items-center justify-between mb-4">
+          <h2
+            className="text-xs font-bold tracking-widest uppercase"
+            style={{ color: "var(--amber)", fontFamily: "var(--font-chivo)" }}
+          >
+            POINT HISTORY
+          </h2>
+          {/* 時間範囲ボタン */}
+          <div className="flex gap-1">
+            {(["all", "8", "4"] as RangeKey[]).map((r) => (
+              <button
+                key={r}
+                onClick={() => setRange(r)}
+                className="text-xs px-2 py-0.5 rounded transition-colors"
+                style={{
+                  background: range === r ? "var(--amber)" : "rgba(255,255,255,0.06)",
+                  color: range === r ? "#0B1F16" : "var(--text-muted)",
+                  fontFamily: "var(--font-chivo)",
+                  fontWeight: range === r ? 700 : 400,
+                }}
+              >
+                {RANGE_LABELS[r]}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <ResponsiveContainer width="100%" height={280}>
           <LineChart

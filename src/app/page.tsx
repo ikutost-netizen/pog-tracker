@@ -1,24 +1,28 @@
 import fs from "fs";
 import path from "path";
-import type { Member, HistoryEntry } from "@/types";
+import type { Member, HistoryEntry, MemberTitleHistory } from "@/types";
 import StandingsBoard from "@/components/StandingsBoard";
 import MvpHorse from "@/components/MvpHorse";
+import MvpStory from "@/components/MvpStory";
 import PointChart from "@/components/PointChart";
 import UpdateHistory from "@/components/UpdateHistory";
 
 function loadData() {
   const membersPath = path.join(process.cwd(), "data", "members.json");
   const historyPath = path.join(process.cwd(), "data", "history.json");
+  const titleHistoryPath = path.join(process.cwd(), "data", "titleHistory.json");
   const members: Member[] = JSON.parse(fs.readFileSync(membersPath, "utf-8"));
   const history: HistoryEntry[] = JSON.parse(fs.readFileSync(historyPath, "utf-8"));
+  const titleHistories: MemberTitleHistory[] = JSON.parse(fs.readFileSync(titleHistoryPath, "utf-8"));
   return {
     members,
     history: [...history].sort((a, b) => a.date.localeCompare(b.date)),
+    titleHistories,
   };
 }
 
 export default function Home() {
-  const { members, history } = loadData();
+  const { members, history, titleHistories } = loadData();
   const latest = history[history.length - 1];
   const historyNewestFirst = [...history].reverse();
 
@@ -49,6 +53,7 @@ export default function Home() {
       <StandingsBoard members={members} history={history} />
       <PointChart members={members} history={history} />
       <UpdateHistory history={historyNewestFirst} />
+      <MvpStory members={members} history={history} titleHistories={titleHistories} />
 
       <footer className="text-center mt-8 pb-4">
         <p className="text-xs" style={{ color: "var(--text-muted)" }}>
