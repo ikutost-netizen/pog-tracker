@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
+import Link from "next/link";
 import type { Member, HistoryEntry, MemberTitleHistory } from "@/types";
 import StandingsBoard from "@/components/StandingsBoard";
 import MvpHorse from "@/components/MvpHorse";
-import MvpStory from "@/components/MvpStory";
 import PointChart from "@/components/PointChart";
 import UpdateHistory from "@/components/UpdateHistory";
 
@@ -22,7 +22,7 @@ function loadData() {
 }
 
 export default function Home() {
-  const { members, history, titleHistories } = loadData();
+  const { members, history } = loadData();
   const latest = history[history.length - 1];
   const historyNewestFirst = [...history].reverse();
 
@@ -53,7 +53,33 @@ export default function Home() {
       <StandingsBoard members={members} history={history} />
       <PointChart members={members} history={history} />
       <UpdateHistory history={historyNewestFirst} />
-      <MvpStory members={members} history={history} titleHistories={titleHistories} />
+
+      {/* MVP & 称号ストーリーへのリンク */}
+      <section className="mb-8">
+        <Link
+          href="/story"
+          className="board-glow rounded-lg flex items-center justify-between px-4 py-4 group transition-opacity hover:opacity-80"
+          style={{ background: "var(--bg-card)", display: "flex" }}
+        >
+          <div>
+            <div
+              className="text-xs font-bold tracking-widest uppercase mb-0.5"
+              style={{ color: "var(--amber)", fontFamily: "var(--font-chivo)" }}
+            >
+              MVP &amp; 称号ストーリー
+            </div>
+            <div className="text-xs" style={{ color: "var(--text-muted)" }}>
+              週間MVP馬と称号変遷の全記録
+            </div>
+          </div>
+          <span
+            className="text-lg"
+            style={{ color: "var(--amber)" }}
+          >
+            →
+          </span>
+        </Link>
+      </section>
 
       <footer className="text-center mt-8 pb-4">
         <p className="text-xs" style={{ color: "var(--text-muted)" }}>
