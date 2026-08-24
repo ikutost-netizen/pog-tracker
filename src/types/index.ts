@@ -21,9 +21,17 @@ export type WeekSchedule = {
   entries: ScheduleEntry[];
 };
 
+export type ConsiderationHorse = {
+  horse: string;
+  memberId: string;
+  note: string;
+  status?: string;
+};
+
 export type ScheduleData = {
   nextWeek: WeekSchedule | null;
   upcoming: WeekSchedule[];
+  consideration: ConsiderationHorse[];
 };
 
 export type Member = {
