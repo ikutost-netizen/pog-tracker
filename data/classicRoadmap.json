@@ -1,0 +1,309 @@
+{
+  "twoYearOldG1": [
+    {
+      "id": "hanshin-jf",
+      "name": "阪神ジュベナイルフィリーズ",
+      "shortName": "阪神JF",
+      "grade": "G1",
+      "venue": "阪神",
+      "distance": "芝1600m",
+      "date": "2026-12-13",
+      "gender": "牝",
+      "leadsTo": ["sakura-sho"]
+    },
+    {
+      "id": "asahi-hai-fs",
+      "name": "朝日杯フューチュリティステークス",
+      "shortName": "朝日杯FS",
+      "grade": "G1",
+      "venue": "阪神",
+      "distance": "芝1600m",
+      "date": "2026-12-20",
+      "gender": null,
+      "leadsTo": ["satsuki-sho", "nhk-mile-cup"]
+    },
+    {
+      "id": "hopeful-s",
+      "name": "ホープフルステークス",
+      "shortName": "ホープフルS",
+      "grade": "G1",
+      "venue": "中山",
+      "distance": "芝2000m",
+      "date": "2026-12-26",
+      "gender": null,
+      "leadsTo": ["satsuki-sho"]
+    }
+  ],
+  "classicRoadmap": [
+    {
+      "id": "satsuki-sho",
+      "name": "皐月賞",
+      "grade": "G1",
+      "venue": "中山",
+      "distance": "芝2000m",
+      "month": 4,
+      "date2027": null,
+      "gender": "牡牝",
+      "stepRaces": [
+        {
+          "name": "弥生賞ディープインパクト記念",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "中山",
+          "distance": "芝2000m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "3着以内"
+        },
+        {
+          "name": "スプリングステークス",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "中山",
+          "distance": "芝1800m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "3着以内"
+        },
+        {
+          "name": "若葉ステークス",
+          "tier": "official",
+          "grade": "L",
+          "venue": "阪神",
+          "distance": "芝2000m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "2着以内"
+        },
+        {
+          "name": "共同通信杯",
+          "tier": "notable",
+          "grade": "G3",
+          "venue": "東京",
+          "distance": "芝1800m",
+          "month": 2,
+          "date2027": null,
+          "note": "皐月賞への最大の前哨戦"
+        },
+        {
+          "name": "きさらぎ賞",
+          "tier": "notable",
+          "grade": "G3",
+          "venue": "京都",
+          "distance": "芝1800m",
+          "month": 2,
+          "date2027": null,
+          "note": "伝統の3歳重賞"
+        }
+      ]
+    },
+    {
+      "id": "nhk-mile-cup",
+      "name": "NHKマイルカップ",
+      "grade": "G1",
+      "venue": "東京",
+      "distance": "芝1600m",
+      "month": 5,
+      "date2027": null,
+      "gender": "牡牝",
+      "stepRaces": [
+        {
+          "name": "ニュージーランドトロフィー",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "中山",
+          "distance": "芝1600m",
+          "month": 4,
+          "date2027": null,
+          "priorityCondition": "3着以内"
+        },
+        {
+          "name": "ファルコンステークス",
+          "tier": "official",
+          "grade": "G3",
+          "venue": "中京",
+          "distance": "芝1400m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "3着以内"
+        },
+        {
+          "name": "アーリントンカップ",
+          "tier": "notable",
+          "grade": "G3",
+          "venue": "阪神",
+          "distance": "芝1600m",
+          "month": 4,
+          "date2027": null,
+          "note": "NHKマイルCへの有力前哨戦"
+        }
+      ]
+    },
+    {
+      "id": "japanese-derby",
+      "name": "日本ダービー",
+      "grade": "G1",
+      "venue": "東京",
+      "distance": "芝2400m",
+      "month": 5,
+      "date2027": null,
+      "gender": "牡牝",
+      "stepRaces": [
+        {
+          "name": "皐月賞（上位5着以内）",
+          "tier": "official",
+          "grade": "G1",
+          "venue": "中山",
+          "distance": "芝2000m",
+          "month": 4,
+          "date2027": null,
+          "priorityCondition": "5着以内"
+        },
+        {
+          "name": "青葉賞",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "東京",
+          "distance": "芝2400m",
+          "month": 4,
+          "date2027": null,
+          "priorityCondition": "2着以内"
+        },
+        {
+          "name": "プリンシパルステークス",
+          "tier": "official",
+          "grade": "L",
+          "venue": "東京",
+          "distance": "芝2000m",
+          "month": 5,
+          "date2027": null,
+          "priorityCondition": "1着のみ"
+        },
+        {
+          "name": "京都新聞杯",
+          "tier": "notable",
+          "grade": "G2",
+          "venue": "京都",
+          "distance": "芝2200m",
+          "month": 5,
+          "date2027": null,
+          "note": "賞金上積みと実績作りに有効"
+        }
+      ]
+    },
+    {
+      "id": "sakura-sho",
+      "name": "桜花賞",
+      "grade": "G1",
+      "venue": "阪神",
+      "distance": "芝1600m",
+      "month": 4,
+      "date2027": null,
+      "gender": "牝",
+      "stepRaces": [
+        {
+          "name": "チューリップ賞",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "阪神",
+          "distance": "芝1600m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "3着以内"
+        },
+        {
+          "name": "フィリーズレビュー",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "阪神",
+          "distance": "芝1400m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "3着以内"
+        },
+        {
+          "name": "アネモネステークス",
+          "tier": "official",
+          "grade": "L",
+          "venue": "中山",
+          "distance": "芝1600m",
+          "month": 3,
+          "date2027": null,
+          "priorityCondition": "2着以内"
+        },
+        {
+          "name": "クイーンカップ",
+          "tier": "notable",
+          "grade": "G3",
+          "venue": "東京",
+          "distance": "芝1600m",
+          "month": 2,
+          "date2027": null,
+          "note": "桜花賞路線の3歳牝馬重賞"
+        },
+        {
+          "name": "エルフィンステークス",
+          "tier": "notable",
+          "grade": "L",
+          "venue": "京都",
+          "distance": "芝1600m",
+          "month": 2,
+          "date2027": null,
+          "note": "優勝馬から桜花賞制覇の実績あり"
+        }
+      ]
+    },
+    {
+      "id": "oaks",
+      "name": "オークス",
+      "grade": "G1",
+      "venue": "東京",
+      "distance": "芝2400m",
+      "month": 5,
+      "date2027": null,
+      "gender": "牝",
+      "stepRaces": [
+        {
+          "name": "桜花賞（上位5着以内）",
+          "tier": "official",
+          "grade": "G1",
+          "venue": "阪神",
+          "distance": "芝1600m",
+          "month": 4,
+          "date2027": null,
+          "priorityCondition": "5着以内"
+        },
+        {
+          "name": "フローラステークス",
+          "tier": "official",
+          "grade": "G2",
+          "venue": "東京",
+          "distance": "芝2000m",
+          "month": 4,
+          "date2027": null,
+          "priorityCondition": "2着以内"
+        },
+        {
+          "name": "スイートピーステークス",
+          "tier": "official",
+          "grade": "L",
+          "venue": "東京",
+          "distance": "芝1800m",
+          "month": 5,
+          "date2027": null,
+          "priorityCondition": "1着のみ"
+        },
+        {
+          "name": "忘れな草賞",
+          "tier": "notable",
+          "grade": "L",
+          "venue": "阪神",
+          "distance": "芝2000m",
+          "month": 4,
+          "date2027": null,
+          "note": "オークスへの距離適性を問う前哨戦"
+        }
+      ]
+    }
+  ]
+}

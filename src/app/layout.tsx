@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_JP, Chivo_Mono, DotGothic16 } from "next/font/google";
+import NavHeader from "@/components/NavHeader";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} ${chivoMono.variable} ${dotGothic.variable}`}>
       <body style={{ fontFamily: 'var(--font-noto), sans-serif' }}>
+        <NavHeader />
         {children}
       </body>
     </html>

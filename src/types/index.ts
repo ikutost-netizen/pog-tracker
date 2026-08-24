@@ -1,3 +1,31 @@
+export type ScheduleHorse = {
+  horse: string;
+  memberId: string;
+  jockey?: string;
+};
+
+export type ScheduleEntry = {
+  date: string;
+  venue: string;
+  distance: string;
+  raceName: string;
+  horses: ScheduleHorse[];
+  consideration: string[];
+  comment?: string;
+  classicRoadmapId?: string | null;
+};
+
+export type WeekSchedule = {
+  weekLabel: string;
+  dateRange: string;
+  entries: ScheduleEntry[];
+};
+
+export type ScheduleData = {
+  nextWeek: WeekSchedule | null;
+  upcoming: WeekSchedule[];
+};
+
 export type Member = {
   id: string;
   name: string;
