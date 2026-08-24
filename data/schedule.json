@@ -1,77 +1,35 @@
 {
   "nextWeek": {
-    "weekLabel": "8/30週",
-    "dateRange": "2026-08-29〜2026-08-31",
+    "weekLabel": "9/5〜6週",
+    "dateRange": "2026-09-05〜2026-09-07",
     "entries": [
       {
-        "date": "2026-08-30",
+        "date": "2026-09-05",
         "venue": "札幌",
         "distance": "芝1800m",
-        "raceName": "新馬戦",
+        "raceName": "札幌2歳ステークス（G3）",
         "horses": [
-          { "horse": "イルリサット", "memberId": "", "jockey": "横山武" }
+          { "horse": "ノヴァヴェローチェ", "memberId": "kato" }
         ],
         "consideration": [],
-        "comment": null,
+        "comment": "新馬快勝直後の重賞初挑戦——単独での加算チャンスを活かし差を広げたい。収得賞金が積み上がれば秋の路線も一気に拓ける今秋最注目の一戦だ。",
         "classicRoadmapId": null
       },
       {
-        "date": "2026-08-30",
-        "venue": "新潟",
-        "distance": "芝1800m",
-        "raceName": "新馬戦",
-        "horses": [
-          { "horse": "チェスティーノ", "memberId": "", "jockey": "ルメール" }
-        ],
-        "consideration": [],
-        "comment": null,
-        "classicRoadmapId": null
-      },
-      {
-        "date": "2026-08-30",
-        "venue": "中京",
+        "date": "2026-09-06",
+        "venue": "阪神",
         "distance": "芝1400m",
-        "raceName": "中京2歳ステークス（G3）",
+        "raceName": "未勝利戦",
         "horses": [
-          { "horse": "サンタンジェロ", "memberId": "aoki", "jockey": "西村" }
+          { "horse": "ニクスルーナ", "memberId": "" }
         ],
         "consideration": [],
-        "comment": "未勝利1着後の重賞初挑戦。G3の舞台で通用するかどうか——秋のクラシック路線を占う試金石だ。",
+        "comment": null,
         "classicRoadmapId": null
       }
     ]
   },
   "upcoming": [
-    {
-      "weekLabel": "9/5〜6週",
-      "dateRange": "2026-09-05〜2026-09-07",
-      "entries": [
-        {
-          "date": "2026-09-05",
-          "venue": "札幌",
-          "distance": "芝1800m",
-          "raceName": "札幌2歳ステークス（G3）",
-          "horses": [
-            { "horse": "ノヴァヴェローチェ", "memberId": "kato" }
-          ],
-          "consideration": [],
-          "comment": "新馬快勝直後の重賞初挑戦——2歳重賞で実績を刻めれば秋のクラシック路線が一気に拓ける。加藤にとって今秋最注目の一戦だ。",
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-09-06",
-          "venue": "阪神",
-          "distance": "芝1400m",
-          "raceName": "未勝利戦",
-          "horses": [
-            { "horse": "ニクスルーナ", "memberId": "" }
-          ],
-          "consideration": [],
-          "comment": null,
-          "classicRoadmapId": null
-        }
-      ]
-    },
     {
       "weekLabel": "9/19週",
       "dateRange": "2026-09-19〜2026-09-21",
@@ -123,7 +81,7 @@
     }
   ],
   "consideration": [
-    { "horse": "サトノフルーク", "memberId": "kato", "note": "8月最終週or9月1週目 札幌", "status": "帰厩済" },
+    { "horse": "サトノフルーク", "memberId": "kato", "note": "9月1週目 札幌", "status": "帰厩済" },
     { "horse": "ダイナマイク", "memberId": "", "note": "9月 阪神", "status": "帰厩済" },
     { "horse": "オールシティキング", "memberId": "", "note": "9月 中山", "status": "帰厩済" },
     { "horse": "シェーンリヒト", "memberId": "aoki", "note": "10月1〜2週目 東京" },
