@@ -1,7 +1,7 @@
 [
   { "id": "kato",    "name": "加藤優祈",   "nickname": "孤高の逃げ馬",       "color": "#FF6B6B", "icon": "/members/kato.jpeg" },
   { "id": "hiraoka", "name": "平岡郁人",   "nickname": "クラシック職人", "color": "#4ECDC4", "icon": "/members/hiraoka.jpeg" },
-  { "id": "yori",    "name": "依里ただき", "nickname": "逆転の帝王",     "color": "#45B7D1", "icon": "/members/yori.jpeg" },
+  { "id": "yori",    "name": "依里ただき", "nickname": "眼力の帝",     "color": "#45B7D1", "icon": "/members/yori.jpeg" },
   { "id": "aoki",    "name": "青木啓一郎", "nickname": "遅咲きの獅子",   "color": "#FFEAA7", "icon": "/members/aoki.jpeg" },
   { "id": "hirose",  "name": "廣瀬匡一郎", "nickname": "追い込みの廣瀬", "color": "#96CEB4", "icon": "/members/hirose.jpeg" }
 ]
