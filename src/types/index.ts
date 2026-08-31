@@ -28,10 +28,17 @@ export type ConsiderationHorse = {
   status?: string;
 };
 
+export type WithdrawnHorse = {
+  horse: string;
+  memberId: string;
+  reason: string;
+};
+
 export type ScheduleData = {
   nextWeek: WeekSchedule | null;
   upcoming: WeekSchedule[];
   consideration: ConsiderationHorse[];
+  withdrawn: WithdrawnHorse[];
 };
 
 export type Member = {

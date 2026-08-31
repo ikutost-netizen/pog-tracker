@@ -403,6 +403,66 @@ export default function SchedulePage() {
         </section>
       )}
 
+      {/* 頓挫・休養中 */}
+      {schedule.withdrawn && schedule.withdrawn.length > 0 && (
+        <section className="mb-8">
+          <h2
+            className="text-xs font-bold tracking-widest uppercase mb-3"
+            style={{ color: "rgba(255,100,100,0.6)", fontFamily: "var(--font-chivo)" }}
+          >
+            頓挫・休養中
+          </h2>
+          <div
+            className="board-glow rounded-lg"
+            style={{ background: "var(--bg-card)" }}
+          >
+            {schedule.withdrawn.map((h, i) => {
+              const m = h.memberId ? memberMap[h.memberId] : null;
+              return (
+                <div
+                  key={i}
+                  className="flex items-center gap-2.5 px-4 py-2.5"
+                  style={{ borderTop: i > 0 ? "1px solid rgba(255,255,255,0.05)" : "none" }}
+                >
+                  {m ? (
+                    <div
+                      className="w-5 h-5 rounded-full overflow-hidden border shrink-0"
+                      style={{ borderColor: m.color, opacity: 0.4 }}
+                    >
+                      <Image
+                        src={m.icon}
+                        alt={m.name}
+                        width={20}
+                        height={20}
+                        className="object-cover"
+                        unoptimized
+                      />
+                    </div>
+                  ) : (
+                    <div
+                      className="w-5 h-5 rounded-full shrink-0"
+                      style={{ background: "rgba(255,255,255,0.05)" }}
+                    />
+                  )}
+                  <span
+                    className="text-xs font-bold"
+                    style={{ color: "rgba(255,255,255,0.25)", textDecoration: "line-through" }}
+                  >
+                    {h.horse}
+                  </span>
+                  <span
+                    className="text-xs ml-auto"
+                    style={{ color: "rgba(255,100,100,0.55)" }}
+                  >
+                    {h.reason}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
       <footer className="text-center pb-4">
         <p className="text-xs" style={{ color: "var(--text-muted)" }}>
           更新はClaude Code経由でのみ行われます
