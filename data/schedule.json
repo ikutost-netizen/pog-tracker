@@ -1,45 +1,51 @@
 {
   "nextWeek": {
-    "weekLabel": "9/13週",
-    "dateRange": "2026-09-12〜2026-09-14",
+    "weekLabel": "9/19〜20週",
+    "dateRange": "2026-09-19〜2026-09-21",
     "entries": [
       {
-        "date": "2026-09-13",
-        "venue": "中山",
-        "distance": "芝1800m",
-        "raceName": "新馬戦",
+        "date": "2026-09-19",
+        "venue": "阪神",
+        "distance": "芝1600m",
+        "raceName": "野路菊ステークス（OP）",
         "horses": [
-          { "horse": "オールシティキング", "memberId": "kato", "jockey": "津村明秀" }
+          { "horse": "ジーティーサクラ", "memberId": "yori", "jockey": "北村友一" }
         ],
         "consideration": [],
-        "comment": "デビュー延期の可能性濃厚——出走確定次第、情報を更新する。ノヴァヴェローチェ回避で手駒が減った加藤にとって、新戦力の台頭が待たれる。",
+        "comment": "依里の指名馬がOP特別初挑戦——北村友一騎手とのコンビで収得賞金の積み上げを狙う。首位固めのための大事な一戦だ。",
+        "classicRoadmapId": null
+      },
+      {
+        "date": "2026-09-19",
+        "venue": "阪神",
+        "distance": "芝1800〜2000m",
+        "raceName": "未勝利戦",
+        "horses": [
+          { "horse": "ダイナマイク", "memberId": "aoki" }
+        ],
+        "consideration": [],
+        "comment": "日程（19日か20日）・距離は未確定——青木の追撃に向けた初勝利候補として注目。",
         "classicRoadmapId": null
       }
     ]
   },
   "upcoming": [
     {
-      "weekLabel": "9/19週",
-      "dateRange": "2026-09-19〜2026-09-21",
-      "entries": [
-        {
-          "date": "2026-09-19",
-          "venue": "阪神",
-          "distance": "芝1600m",
-          "raceName": "野路菊ステークス（OP）",
-          "horses": [
-            { "horse": "ジーティーサクラ", "memberId": "yori", "jockey": "北村友一" }
-          ],
-          "consideration": [],
-          "comment": "依里の指名馬がOP特別初挑戦——勝利で収得賞金を積み、首位固めに弾みをつけたい。19P差の均衡を保ちながら差を広げる機会だ。",
-          "classicRoadmapId": null
-        }
-      ]
-    },
-    {
       "weekLabel": "9/26〜27週",
       "dateRange": "2026-09-26〜2026-09-28",
       "entries": [
+        {
+          "date": "2026-09-26",
+          "venue": "阪神",
+          "distance": "芝1400m",
+          "raceName": "未勝利戦（牝馬限定）",
+          "horses": [
+            { "horse": "ニクスルーナ", "memberId": "hirose" }
+          ],
+          "consideration": [],
+          "comment": "前走2着の雪辱を期す——勝利で廣瀬の収得賞金を積みたい。",
+          "classicRoadmapId": null
+        },
         {
           "date": "2026-09-26",
           "venue": "中山",
@@ -47,10 +53,22 @@
           "raceName": "芙蓉ステークス（OP）",
           "horses": [
             { "horse": "スタースポット",   "memberId": "kato" },
-            { "horse": "ジョドレルバンク", "memberId": "yori" }
+            { "horse": "ジョドレルバンク", "memberId": "yori", "jockey": "戸崎圭太" }
           ],
           "consideration": [],
-          "comment": "加藤と依里が中山2000mで直接対決——スタースポット対ジョドレルバンク、19P差の首位争いが一気に動く正念場だ。",
+          "comment": "加藤と依里が中山2000mで直接対決——戸崎鞍上のジョドレルバンク(依里) vs スタースポット(加藤)、19P差の首位争いが動く正念場だ。",
+          "classicRoadmapId": null
+        },
+        {
+          "date": "2026-09-27",
+          "venue": "中山",
+          "distance": "芝2000m",
+          "raceName": "未勝利戦",
+          "horses": [
+            { "horse": "インテルラゴス", "memberId": "aoki" }
+          ],
+          "consideration": [],
+          "comment": null,
           "classicRoadmapId": null
         },
         {
@@ -64,7 +82,7 @@
             { "horse": "リリカルフレア", "memberId": "hirose" }
           ],
           "consideration": [],
-          "comment": "平岡・青木・廣瀬が3頭同時参戦の三つ巴——リサナウト(平岡)・シルクドマルス(青木)・リリカルフレア(廣瀬)が同じ舞台で激突。収得賞金と順位差が一気に動く直接対決だ。",
+          "comment": "平岡・青木・廣瀬が3頭同時参戦の三つ巴——勝った馬は収得賞金を積み順位差にも影響する直接対決だ。",
           "classicRoadmapId": null
         }
       ]
@@ -82,13 +100,13 @@
             { "horse": "サンタンジェロ", "memberId": "aoki" }
           ],
           "consideration": [],
-          "comment": "サンタンジェロが京都で収得賞金の初積みを狙う——G3で2度跳ね返された壁を1勝クラスで突き破れるか。青木の上位争い参戦をかけた重要な一戦だ。",
+          "comment": "フレグモーネで回避の可能性あり——出走確定次第、情報を更新する。出走できれば収得賞金初積みのチャンスだ。",
           "classicRoadmapId": null
         }
       ]
     },
     {
-      "weekLabel": "10/10週",
+      "weekLabel": "10/10〜12週",
       "dateRange": "2026-10-10〜2026-10-12",
       "entries": [
         {
@@ -100,7 +118,19 @@
             { "horse": "フィリオソラーレ", "memberId": "hiraoka", "jockey": "ルメール" }
           ],
           "consideration": [],
-          "comment": "平岡の秘蔵馬・フィリオソラーレがルメール鞍上で東京G3に初挑戦——勝利で収得賞金の大幅積み上げ、平岡が一気に台風の目となる秋最大の注目レースだ。",
+          "comment": "平岡の秘蔵馬がルメール鞍上で東京G3初挑戦——勝てれば収得賞金の大幅積み上げ、平岡が一気に台風の目となる。",
+          "classicRoadmapId": null
+        },
+        {
+          "date": "2026-10-12",
+          "venue": "東京",
+          "distance": "芝1800m",
+          "raceName": "未勝利戦",
+          "horses": [
+            { "horse": "マルスレジーナ", "memberId": "hiraoka" }
+          ],
+          "consideration": [],
+          "comment": null,
           "classicRoadmapId": null
         }
       ]
@@ -118,20 +148,22 @@
             { "horse": "ホウオウモノポリー", "memberId": "hiraoka", "jockey": "戸崎圭太" }
           ],
           "consideration": [],
-          "comment": "リステッド競走でさらなる収得賞金の積み上げを狙う——平岡の秋は2頭体制でフル稼働だ。",
+          "comment": "リステッド競走で収得賞金の積み上げを狙う——平岡の秋は3頭体制でフル稼働だ。",
           "classicRoadmapId": null
         }
       ]
     }
   ],
   "consideration": [
-    { "horse": "ダイナマイク",       "memberId": "aoki",    "note": "9月 阪神",          "status": "帰厩済" },
-    { "horse": "クシュドゥソレイユ", "memberId": "yori",    "note": "帰厩済" },
-    { "horse": "ダノンダックス",     "memberId": "yori",    "note": "10月1〜2週目 東京", "status": "帰厩済" },
-    { "horse": "ラガリーガ",         "memberId": "kato",    "note": "10月（芙蓉S間に合わず）" },
-    { "horse": "ウインヴァンガード", "memberId": "hirose",  "note": "9月 帰厩・デビュー検討中" },
-    { "horse": "シェーンリヒト",     "memberId": "aoki",    "note": "東京" },
-    { "horse": "チェスティーノ",     "memberId": "yori",    "note": "東京" }
+    { "horse": "クシュドゥソレイユ", "memberId": "yori",   "note": "9月 中山",             "status": "帰厩済" },
+    { "horse": "ダノンダックス",     "memberId": "yori",   "note": "10月1〜2週目 東京",    "status": "帰厩済" },
+    { "horse": "レジューノワール",   "memberId": "kato",   "note": "10月1〜2週目 東京",    "status": "帰厩済" },
+    { "horse": "ラガリーガ",         "memberId": "kato",   "note": "10月" },
+    { "horse": "ウインヴァンガード", "memberId": "hirose", "note": "9月 帰厩・デビュー検討中" },
+    { "horse": "ジャンゴッド",       "memberId": "aoki",   "note": "10月 京都",            "status": "帰厩済" },
+    { "horse": "シアルナーレ",       "memberId": "yori",   "note": "東京",                 "status": "帰厩済" },
+    { "horse": "シェーンリヒト",     "memberId": "aoki",   "note": "東京" },
+    { "horse": "チェスティーノ",     "memberId": "yori",   "note": "東京" }
   ],
   "withdrawn": [
     { "horse": "シャムリベルク",     "memberId": "hirose", "reason": "復帰運動中" },
@@ -139,6 +171,7 @@
     { "horse": "メアグローリア",     "memberId": "kato",   "reason": "骨折" },
     { "horse": "ハッピーダイフゴー", "memberId": "kato",   "reason": "裂蹄悪化" },
     { "horse": "イルリサット",       "memberId": "aoki",   "reason": "骨折" },
-    { "horse": "ノヴァヴェローチェ", "memberId": "kato",   "reason": "左後肢ハ行・回避" }
+    { "horse": "ノヴァヴェローチェ", "memberId": "kato",   "reason": "ハ行回避" },
+    { "horse": "オールシティキング", "memberId": "kato",   "reason": "不明・出走回避" }
   ]
 }
