@@ -1,96 +1,90 @@
 {
   "nextWeek": {
-    "weekLabel": "9/19〜20週",
-    "dateRange": "2026-09-19〜2026-09-21",
+    "weekLabel": "9/26〜27週",
+    "dateRange": "2026-09-26〜2026-09-28",
     "entries": [
       {
-        "date": "2026-09-19",
+        "date": "2026-09-26",
         "venue": "阪神",
-        "distance": "芝1600m",
-        "raceName": "野路菊ステークス（OP）",
+        "distance": "芝1400m",
+        "raceName": "未勝利戦（牝馬限定）",
         "horses": [
-          { "horse": "ジーティーサクラ", "memberId": "yori", "jockey": "北村友一" }
+          { "horse": "ニクスルーナ", "memberId": "hirose" }
         ],
         "consideration": [],
-        "comment": "依里の指名馬がOP特別初挑戦——北村友一騎手とのコンビで収得賞金の積み上げを狙う。首位固めのための大事な一戦だ。",
+        "comment": "前走2着の雪辱を期す——今度こそ初勝利で廣瀬の収得賞金を積みたい。",
         "classicRoadmapId": null
       },
       {
-        "date": "2026-09-19",
-        "venue": "阪神",
-        "distance": "芝1800〜2000m",
-        "raceName": "未勝利戦",
+        "date": "2026-09-26",
+        "venue": "中山",
+        "distance": "芝2000m",
+        "raceName": "芙蓉ステークス（OP）",
         "horses": [
-          { "horse": "ダイナマイク", "memberId": "aoki" }
+          { "horse": "スタースポット",   "memberId": "kato",  "jockey": "ルメール" },
+          { "horse": "ジョドレルバンク", "memberId": "yori",  "jockey": "戸崎圭太" }
         ],
         "consideration": [],
-        "comment": "日程（19日か20日）・距離は未確定——青木の追撃に向けた初勝利候補として注目。",
+        "comment": "スタースポット(加藤・ルメール) vs ジョドレルバンク(依里・戸崎)——508P差の首位争いが動く直接対決。ルメールを手配した加藤が逆転の一手を放てるか。",
+        "classicRoadmapId": null
+      },
+      {
+        "date": "2026-09-27",
+        "venue": "阪神",
+        "distance": "芝2000m",
+        "raceName": "未勝利戦",
+        "horses": [
+          { "horse": "ダイナマイク", "memberId": "aoki", "jockey": "川田将雅" }
+        ],
+        "consideration": [],
+        "comment": "川田将雅騎手とのコンビで青木が初勝利を狙う——3着同点の牙城を崩す一戦だ。",
+        "classicRoadmapId": null
+      },
+      {
+        "date": "2026-09-27",
+        "venue": "中山",
+        "distance": "芝2000m",
+        "raceName": "未勝利戦",
+        "horses": [
+          { "horse": "インテルラゴス", "memberId": "aoki" }
+        ],
+        "consideration": [],
+        "comment": null,
+        "classicRoadmapId": null
+      },
+      {
+        "date": "2026-09-27",
+        "venue": "中山",
+        "distance": "芝1600m",
+        "raceName": "サフラン賞（1勝クラス）",
+        "horses": [
+          { "horse": "リサナウト",     "memberId": "hiraoka", "jockey": "ルメール" },
+          { "horse": "シルクドマルス", "memberId": "aoki",    "jockey": "坂井瑠星" },
+          { "horse": "リリカルフレア", "memberId": "hirose",  "jockey": "戸崎圭太" }
+        ],
+        "consideration": [],
+        "comment": "リサナウト(平岡・ルメール)・シルクドマルス(青木・坂井)・リリカルフレア(廣瀬・戸崎)が豪華鞍上を揃えて三つ巴——勝った馬が収得賞金を積み、平岡・青木・廣瀬の直接順位差が動く。",
         "classicRoadmapId": null
       }
     ]
   },
   "upcoming": [
     {
-      "weekLabel": "9/26〜27週",
-      "dateRange": "2026-09-26〜2026-09-28",
-      "entries": [
-        {
-          "date": "2026-09-26",
-          "venue": "阪神",
-          "distance": "芝1400m",
-          "raceName": "未勝利戦（牝馬限定）",
-          "horses": [
-            { "horse": "ニクスルーナ", "memberId": "hirose" }
-          ],
-          "consideration": [],
-          "comment": "前走2着の雪辱を期す——勝利で廣瀬の収得賞金を積みたい。",
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-09-26",
-          "venue": "中山",
-          "distance": "芝2000m",
-          "raceName": "芙蓉ステークス（OP）",
-          "horses": [
-            { "horse": "スタースポット",   "memberId": "kato" },
-            { "horse": "ジョドレルバンク", "memberId": "yori", "jockey": "戸崎圭太" }
-          ],
-          "consideration": [],
-          "comment": "加藤と依里が中山2000mで直接対決——戸崎鞍上のジョドレルバンク(依里) vs スタースポット(加藤)、19P差の首位争いが動く正念場だ。",
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-09-27",
-          "venue": "中山",
-          "distance": "芝2000m",
-          "raceName": "未勝利戦",
-          "horses": [
-            { "horse": "インテルラゴス", "memberId": "aoki" }
-          ],
-          "consideration": [],
-          "comment": null,
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-09-27",
-          "venue": "中山",
-          "distance": "芝1600m",
-          "raceName": "サフラン賞（1勝クラス）",
-          "horses": [
-            { "horse": "リサナウト",     "memberId": "hiraoka" },
-            { "horse": "シルクドマルス", "memberId": "aoki" },
-            { "horse": "リリカルフレア", "memberId": "hirose" }
-          ],
-          "consideration": [],
-          "comment": "平岡・青木・廣瀬が3頭同時参戦の三つ巴——勝った馬は収得賞金を積み順位差にも影響する直接対決だ。",
-          "classicRoadmapId": null
-        }
-      ]
-    },
-    {
       "weekLabel": "10/3週",
       "dateRange": "2026-10-03〜2026-10-05",
       "entries": [
+        {
+          "date": "2026-10-03",
+          "venue": "東京",
+          "distance": "芝2000m",
+          "raceName": "未勝利戦",
+          "horses": [
+            { "horse": "シアルナーレ", "memberId": "yori", "jockey": "戸崎圭太" }
+          ],
+          "consideration": [],
+          "comment": "戸崎騎手とのコンビで依里の期待馬が初勝利を狙う。",
+          "classicRoadmapId": null
+        },
         {
           "date": "2026-10-03",
           "venue": "京都",
@@ -100,7 +94,7 @@
             { "horse": "サンタンジェロ", "memberId": "aoki" }
           ],
           "consideration": [],
-          "comment": "フレグモーネで回避の可能性あり——出走確定次第、情報を更新する。出走できれば収得賞金初積みのチャンスだ。",
+          "comment": "【回避確定】フレグモーネで出走取消——次走は再検討中。騎乗運動は再開済みで回復を待つ。",
           "classicRoadmapId": null
         }
       ]
@@ -118,7 +112,19 @@
             { "horse": "フィリオソラーレ", "memberId": "hiraoka", "jockey": "ルメール" }
           ],
           "consideration": [],
-          "comment": "平岡の秘蔵馬がルメール鞍上で東京G3初挑戦——勝てれば収得賞金の大幅積み上げ、平岡が一気に台風の目となる。",
+          "comment": "平岡の秘蔵馬がルメール鞍上で東京G3初挑戦——勝てれば収得賞金の大幅積み上げ、平岡が台風の目となる。",
+          "classicRoadmapId": null
+        },
+        {
+          "date": "2026-10-11",
+          "venue": "京都",
+          "distance": "芝2000m",
+          "raceName": "未勝利戦",
+          "horses": [
+            { "horse": "オンユアマークス", "memberId": "yori", "jockey": "武豊" }
+          ],
+          "consideration": [],
+          "comment": "武豊騎手とのコンビで依里の期待馬が初勝利を狙う——レジェンド鞍上でデビュー3着馬の真価が問われる。",
           "classicRoadmapId": null
         },
         {
@@ -145,23 +151,59 @@
           "distance": "芝1800m",
           "raceName": "アイビーステークス（L）",
           "horses": [
-            { "horse": "ホウオウモノポリー", "memberId": "hiraoka", "jockey": "戸崎圭太" }
+            { "horse": "ホウオウモノポリー", "memberId": "hiraoka", "jockey": "戸崎圭太" },
+            { "horse": "アヴィアトーレ",     "memberId": "kato" }
           ],
           "consideration": [],
-          "comment": "リステッド競走で収得賞金の積み上げを狙う——平岡の秋は3頭体制でフル稼働だ。",
+          "comment": "ホウオウモノポリー(平岡・戸崎) vs アヴィアトーレ(加藤)がリステッド競走で直接対決——コスモス賞組の加藤馬が平岡の秋を脅かす。",
+          "classicRoadmapId": null
+        }
+      ]
+    },
+    {
+      "weekLabel": "11/14週",
+      "dateRange": "2026-11-14〜2026-11-15",
+      "entries": [
+        {
+          "date": "2026-11-14",
+          "venue": "京都",
+          "distance": "芝1600m",
+          "raceName": "デイリー杯2歳ステークス（G2）",
+          "horses": [
+            { "horse": "ジーティーサクラ", "memberId": "yori" }
+          ],
+          "consideration": [],
+          "comment": "野路菊S3着・放牧明けのジーティーサクラが重賞初制覇を狙う——G2勝利で収得賞金を一気に積み上げ、依里の王座を盤石にする今秋最大の一戦だ。",
+          "classicRoadmapId": null
+        }
+      ]
+    },
+    {
+      "weekLabel": "11/23週",
+      "dateRange": "2026-11-22〜2026-11-23",
+      "entries": [
+        {
+          "date": "2026-11-23",
+          "venue": "東京",
+          "distance": "芝1800m",
+          "raceName": "東京スポーツ杯2歳ステークス（G2）",
+          "horses": [
+            { "horse": "エルドボルグ", "memberId": "yori" }
+          ],
+          "consideration": [],
+          "comment": "新馬快勝のエルドボルグが一気に重賞舞台へ——ジーティーサクラとの2頭G2体制で依里が秋を席巻する。",
           "classicRoadmapId": null
         }
       ]
     }
   ],
   "consideration": [
-    { "horse": "クシュドゥソレイユ", "memberId": "yori",   "note": "9月 中山",             "status": "帰厩済" },
-    { "horse": "ダノンダックス",     "memberId": "yori",   "note": "10月1〜2週目 東京",    "status": "帰厩済" },
-    { "horse": "レジューノワール",   "memberId": "kato",   "note": "10月1〜2週目 東京",    "status": "帰厩済" },
+    { "horse": "クシュドゥソレイユ", "memberId": "yori",   "note": "次走検討中",          "status": "帰厩済" },
+    { "horse": "ダノンダックス",     "memberId": "yori",   "note": "10月 東京",           "status": "帰厩済" },
+    { "horse": "レジューノワール",   "memberId": "kato",   "note": "10月 東京",           "status": "帰厩済" },
     { "horse": "ラガリーガ",         "memberId": "kato",   "note": "10月" },
-    { "horse": "ウインヴァンガード", "memberId": "hirose", "note": "9月 帰厩・デビュー検討中" },
-    { "horse": "ジャンゴッド",       "memberId": "aoki",   "note": "10月 京都",            "status": "帰厩済" },
-    { "horse": "シアルナーレ",       "memberId": "yori",   "note": "東京",                 "status": "帰厩済" },
+    { "horse": "ウインヴァンガード", "memberId": "hirose", "note": "デビュー検討中" },
+    { "horse": "ジャンゴッド",       "memberId": "aoki",   "note": "10月 京都",           "status": "帰厩済" },
     { "horse": "シェーンリヒト",     "memberId": "aoki",   "note": "東京" },
     { "horse": "チェスティーノ",     "memberId": "yori",   "note": "東京" }
   ],
