@@ -1,78 +1,47 @@
 {
   "nextWeek": {
-    "weekLabel": "10/3〜4週",
-    "dateRange": "2026-10-03〜2026-10-05",
+    "weekLabel": "10/10〜12週",
+    "dateRange": "2026-10-10〜2026-10-12",
     "entries": [
       {
-        "date": "2026-10-03",
+        "date": "2026-10-10",
         "venue": "東京",
-        "distance": "芝2000m",
-        "raceName": "未勝利戦",
+        "distance": "芝1600m",
+        "raceName": "サウジアラビアロイヤルカップ（G3）",
         "horses": [
-          { "horse": "シアルナーレ",   "memberId": "yori", "jockey": "戸崎圭太" },
-          { "horse": "インテルラゴス", "memberId": "aoki", "jockey": "ルメール" }
+          { "horse": "フィリオソラーレ", "memberId": "hiraoka", "jockey": "ルメール" }
         ],
         "consideration": [],
-        "comment": "シアルナーレ(依里・戸崎) vs インテルラゴス(青木・ルメール)が同じ未勝利戦で直接対決——ルメールを手配した青木が一矢報いるか、依里が押し切るか。",
+        "comment": "3位から4位に転落した平岡が起死回生の一打——ルメール鞍上でG3初挑戦、勝てれば一気に上位に食い込む今秋最大の平岡の山場だ。",
         "classicRoadmapId": null
       },
       {
-        "date": "2026-10-04",
+        "date": "2026-10-11",
+        "venue": "京都",
+        "distance": "芝2000m",
+        "raceName": "未勝利戦",
+        "horses": [
+          { "horse": "オンユアマークス", "memberId": "yori", "jockey": "武豊" }
+        ],
+        "consideration": [],
+        "comment": "武豊騎手とのコンビで依里の期待馬が初勝利を狙う——首位を守りながらさらに差を広げる一手だ。",
+        "classicRoadmapId": null
+      },
+      {
+        "date": "2026-10-12",
         "venue": "東京",
         "distance": "芝1800m",
         "raceName": "未勝利戦",
         "horses": [
-          { "horse": "ダノンダックス", "memberId": "yori", "jockey": "ルメール" }
+          { "horse": "マルスレジーナ", "memberId": "hiraoka", "jockey": "ルメール" }
         ],
         "consideration": [],
-        "comment": "依里の次走候補ダノンダックスがルメール鞍上で東京1800m未勝利に出走——新馬2着の素質を初勝利で証明できるか。",
+        "comment": "平岡の手駒マルスレジーナにもルメール——G3と同週に2頭ルメール体制で平岡が巻き返しを図る。",
         "classicRoadmapId": null
       }
     ]
   },
   "upcoming": [
-    {
-      "weekLabel": "10/10〜12週",
-      "dateRange": "2026-10-10〜2026-10-12",
-      "entries": [
-        {
-          "date": "2026-10-10",
-          "venue": "東京",
-          "distance": "芝1600m",
-          "raceName": "サウジアラビアロイヤルカップ（G3）",
-          "horses": [
-            { "horse": "フィリオソラーレ", "memberId": "hiraoka", "jockey": "ルメール" }
-          ],
-          "consideration": [],
-          "comment": "平岡の秘蔵馬がルメール鞍上でG3初挑戦——勝てれば収得賞金の大幅積み上げ、平岡が台風の目となる。",
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-10-11",
-          "venue": "京都",
-          "distance": "芝2000m",
-          "raceName": "未勝利戦",
-          "horses": [
-            { "horse": "オンユアマークス", "memberId": "yori", "jockey": "武豊" }
-          ],
-          "consideration": [],
-          "comment": "武豊騎手とのコンビで依里の期待馬が初勝利を狙う——レジェンド鞍上でデビュー3着馬の真価が問われる。",
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-10-12",
-          "venue": "東京",
-          "distance": "芝1800m",
-          "raceName": "未勝利戦",
-          "horses": [
-            { "horse": "マルスレジーナ", "memberId": "hiraoka" }
-          ],
-          "consideration": [],
-          "comment": null,
-          "classicRoadmapId": null
-        }
-      ]
-    },
     {
       "weekLabel": "10/17週",
       "dateRange": "2026-10-17〜2026-10-19",
@@ -85,10 +54,46 @@
           "horses": [
             { "horse": "ホウオウモノポリー", "memberId": "hiraoka", "jockey": "戸崎圭太" },
             { "horse": "アヴィアトーレ",     "memberId": "kato" },
-            { "horse": "ラガリーガ",         "memberId": "kato" }
+            { "horse": "ラガリーガ",         "memberId": "kato",    "jockey": "岩田望来" }
           ],
           "consideration": [],
-          "comment": "ホウオウモノポリー(平岡・戸崎) vs アヴィアトーレ&ラガリーガ(加藤2頭)——リステッド競走で加藤が2頭体制の圧力をかける。首位独走中の加藤がここでも強さを見せるか。",
+          "comment": "ホウオウモノポリー(平岡・戸崎) vs アヴィアトーレ&ラガリーガ(加藤2頭)——リステッド競走で加藤が2頭体制の圧力をかける。68P差の首位争いに加藤が風穴を開けるか。",
+          "classicRoadmapId": null
+        }
+      ]
+    },
+    {
+      "weekLabel": "10/25週",
+      "dateRange": "2026-10-24〜2026-10-25",
+      "entries": [
+        {
+          "date": "2026-10-25",
+          "venue": "東京",
+          "distance": "芝1800m",
+          "raceName": "2歳新馬戦",
+          "horses": [
+            { "horse": "ノヴァルクス", "memberId": "hirose" }
+          ],
+          "consideration": [],
+          "comment": "廣瀬の新デビュー馬ノヴァルクスが東京芝1800mで初陣——ニクスルーナの初勝利に続く廣瀬陣営の勢いを新馬でも示せるか。",
+          "classicRoadmapId": null
+        }
+      ]
+    },
+    {
+      "weekLabel": "10/31週",
+      "dateRange": "2026-10-31〜2026-11-02",
+      "entries": [
+        {
+          "date": "2026-10-31",
+          "venue": "京都",
+          "distance": "芝1400m",
+          "raceName": "ファンタジーステークス（G3）",
+          "horses": [
+            { "horse": "ニクスルーナ", "memberId": "hirose" }
+          ],
+          "consideration": [],
+          "comment": "未勝利を勝ったばかりのニクスルーナが一気にG3へ——廣瀬の初制覇馬が重賞舞台でどこまで通用するか、今秋廣瀬最大の見せ場だ。",
           "classicRoadmapId": null
         }
       ]
@@ -106,13 +111,13 @@
             { "horse": "チェスティーノ", "memberId": "yori" }
           ],
           "consideration": [],
-          "comment": "依里の新馬快勝馬チェスティーノが1勝クラスへ——東京芝2000mで収得賞金の積み上げを狙う。G2組の前哨戦として重要な一戦だ。",
+          "comment": "依里の新馬快勝馬チェスティーノが1勝クラスへ——G2組の前哨戦として首位固めの一手だ。",
           "classicRoadmapId": null
         }
       ]
     },
     {
-      "weekLabel": "11/14週",
+      "weekLabel": "11/14〜15週",
       "dateRange": "2026-11-14〜2026-11-15",
       "entries": [
         {
@@ -124,7 +129,19 @@
             { "horse": "ジーティーサクラ", "memberId": "yori" }
           ],
           "consideration": [],
-          "comment": "野路菊S3着・放牧明けのジーティーサクラが重賞制覇を狙う——G2勝利で762Pのビハインドを一気に埋める今秋最大の逆転カードだ。",
+          "comment": "放牧明けのジーティーサクラがG2初挑戦——野路菊S3着の雪辱を期す依里の最大の切り札だ。",
+          "classicRoadmapId": null
+        },
+        {
+          "date": "2026-11-15",
+          "venue": "京都",
+          "distance": "芝2000m",
+          "raceName": "黄菊賞（1勝クラス）",
+          "horses": [
+            { "horse": "インカルナータ", "memberId": "hiraoka" }
+          ],
+          "consideration": [],
+          "comment": "新潟2歳S(G3)9着から立て直しを図る平岡のインカルナータ——1勝クラスで収得賞金の積み上げを目指す。",
           "classicRoadmapId": null
         }
       ]
@@ -139,24 +156,23 @@
           "distance": "芝1800m",
           "raceName": "東京スポーツ杯2歳ステークス（G2）",
           "horses": [
-            { "horse": "エルドボルグ", "memberId": "yori" }
+            { "horse": "エルドボルグ", "memberId": "yori", "jockey": "Cデムーロ" }
           ],
           "consideration": [],
-          "comment": "新馬快勝のエルドボルグがG2へ——ジーティーサクラとともに依里の2頭G2体制で逆転を狙う。",
+          "comment": "デムーロ鞍上でエルドボルグがG2初挑戦——ジーティーサクラとの2頭G2体制で依里が加藤に引導を渡しにいく。",
           "classicRoadmapId": null
         }
       ]
     }
   ],
   "consideration": [
-    { "horse": "クシュドゥソレイユ", "memberId": "yori",   "note": "次走検討中" },
-    { "horse": "サンタンジェロ",     "memberId": "aoki",   "note": "フレグモーネ回避後・次走再検討中",        "status": "騎乗運動再開済" },
-    { "horse": "レジューノワール",   "memberId": "kato",   "note": "10月2週目 東京デビュー検討中",           "status": "帰厩済" },
-    { "horse": "ウインヴァンガード", "memberId": "hirose", "note": "10月デビュー検討中",                    "status": "帰厩済" },
-    { "horse": "ジャンゴッド",       "memberId": "aoki",   "note": "10月 次走検討中",                      "status": "帰厩済" },
-    { "horse": "マテンロウアルカナ", "memberId": "hirose", "note": "10月 次走検討中",                      "status": "帰厩済" },
-    { "horse": "シェーンリヒト",     "memberId": "aoki",   "note": "東京 次走検討中" },
+    { "horse": "レジューノワール",   "memberId": "kato",   "note": "デビュー延期中（怪我ではない・放牧）" },
+    { "horse": "ウインヴァンガード", "memberId": "hirose", "note": "10月デビュー検討中",      "status": "帰厩済" },
+    { "horse": "マテンロウアルカナ", "memberId": "hirose", "note": "10月 次走検討中",         "status": "帰厩済" },
+    { "horse": "ユタライト",         "memberId": "hiraoka","note": "11月東京で次走検討中" },
+    { "horse": "リボンロード",       "memberId": "hirose", "note": "11月福島で次走検討中" },
     { "horse": "ソブリオ",           "memberId": "hiraoka","note": "11月デビュー検討中" },
+    { "horse": "ノヴァヴェローチェ", "memberId": "kato",   "note": "年末までに次走検討中" },
     { "horse": "オールシティキング", "memberId": "kato",   "note": "年明けデビュー検討中" }
   ],
   "withdrawn": [
@@ -164,7 +180,6 @@
     { "horse": "ベラジオパンテーラ", "memberId": "hirose", "reason": "骨折" },
     { "horse": "メアグローリア",     "memberId": "kato",   "reason": "骨折→運動再開" },
     { "horse": "ハッピーダイフゴー", "memberId": "kato",   "reason": "裂蹄悪化" },
-    { "horse": "イルリサット",       "memberId": "aoki",   "reason": "骨折" },
-    { "horse": "ノヴァヴェローチェ", "memberId": "kato",   "reason": "ハ行（回復待ち）" }
+    { "horse": "イルリサット",       "memberId": "aoki",   "reason": "骨折" }
   ]
 }
