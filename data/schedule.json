@@ -169,6 +169,7 @@
     { "horse": "レジューノワール",   "memberId": "kato",   "note": "デビュー延期中（怪我ではない・放牧）" },
     { "horse": "ウインヴァンガード", "memberId": "hirose", "note": "10月デビュー検討中",      "status": "帰厩済" },
     { "horse": "マテンロウアルカナ", "memberId": "hirose", "note": "10月 次走検討中",         "status": "帰厩済" },
+    { "horse": "ロードディグニティ", "memberId": "hiraoka","note": "新馬6着・次走検討中" },
     { "horse": "ユタライト",         "memberId": "hiraoka","note": "11月東京で次走検討中" },
     { "horse": "リボンロード",       "memberId": "hirose", "note": "11月福島で次走検討中" },
     { "horse": "ソブリオ",           "memberId": "hiraoka","note": "11月デビュー検討中" },
