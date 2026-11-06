@@ -1,66 +1,35 @@
 {
   "nextWeek": {
-    "weekLabel": "10/31〜11/1週",
-    "dateRange": "2026-10-31〜2026-11-02",
+    "weekLabel": "11/8週",
+    "dateRange": "2026-11-08〜2026-11-09",
     "entries": [
       {
-        "date": "2026-10-31",
-        "venue": "京都",
-        "distance": "芝1400m",
-        "raceName": "ファンタジーステークス（G3）",
+        "date": "2026-11-08",
+        "venue": "東京",
+        "distance": "芝2000m",
+        "raceName": "未勝利戦",
         "horses": [
-          { "horse": "ニクスルーナ",    "memberId": "hirose", "jockey": "岩田望来" },
-          { "horse": "シャンデヴァーグ", "memberId": "yori",   "jockey": "鮫島克駿" }
+          { "horse": "シェーンリヒト", "memberId": "aoki", "jockey": "津村明秀" }
         ],
         "consideration": [],
-        "comment": "廣瀬のニクスルーナ（岩田望）vs 依里のシャンデヴァーグ（鮫島克）——G3の舞台で直接激突。G3は1〜2着が収得賞金対象で、どちらが制しても今後の格上がりに直結する重要な一戦だ。廣瀬は5位からの巻き返しを、依里は首位確立をそれぞれかけて挑む。",
+        "comment": "青木のシェーンリヒト（津村）が東京芝2000m未勝利に初挑戦——前走新馬3着からの次走。「覚醒の獅子」青木に勝利をもたらせるか。",
         "classicRoadmapId": null
       },
       {
-        "date": "2026-11-01",
-        "venue": "京都",
-        "distance": "芝1600m",
-        "raceName": "2歳新馬戦",
+        "date": "2026-11-08",
+        "venue": "福島",
+        "distance": "芝1200m",
+        "raceName": "未勝利戦",
         "horses": [
-          { "horse": "ウインヴァンガード", "memberId": "hirose", "jockey": "西村淳也" }
+          { "horse": "ユタライト", "memberId": "hiraoka", "jockey": "杉原誠仁" }
         ],
         "consideration": [],
-        "comment": "帰厩から待ちに待ったウインヴァンガード（西村）がついにデビュー——ノヴァルクス快勝の勢いに乗って廣瀬陣営が連日出走の週末に挑む。",
+        "comment": "未勝利13着と苦戦続きのユタライト（杉原）が福島芝1200mに転戦——距離短縮で突破口を開けるか。平岡陣営の隠し弾がここで覚醒するか否か。",
         "classicRoadmapId": null
       }
     ]
   },
   "upcoming": [
-    {
-      "weekLabel": "11/8週",
-      "dateRange": "2026-11-08〜2026-11-09",
-      "entries": [
-        {
-          "date": "2026-11-08",
-          "venue": "東京",
-          "distance": "芝2000m",
-          "raceName": "未勝利戦",
-          "horses": [
-            { "horse": "シェーンリヒト", "memberId": "aoki", "jockey": "津村明秀" }
-          ],
-          "consideration": [],
-          "comment": "青木のシェーンリヒト（津村）が東京芝2000m未勝利に初挑戦——前走新馬3着からの次走。「覚醒の獅子」青木に勝利をもたらせるか。",
-          "classicRoadmapId": null
-        },
-        {
-          "date": "2026-11-08",
-          "venue": "福島",
-          "distance": "芝1200m",
-          "raceName": "未勝利戦",
-          "horses": [
-            { "horse": "ユタライト", "memberId": "hiraoka" }
-          ],
-          "consideration": [],
-          "comment": "未勝利13着と苦戦続きのユタライトが福島芝1200mに転戦——距離短縮で突破口を開けるか。平岡陣営の隠し弾がここで覚醒するか否か。",
-          "classicRoadmapId": null
-        }
-      ]
-    },
     {
       "weekLabel": "11/14週",
       "dateRange": "2026-11-14〜2026-11-15",
@@ -83,11 +52,10 @@
           "distance": "芝1600m",
           "raceName": "デイリー杯2歳ステークス（G2）",
           "horses": [
-            { "horse": "ジーティーサクラ", "memberId": "yori",    "jockey": "未定", "note": "入厩せず回避の可能性有" },
-            { "horse": "インカルナータ",   "memberId": "hiraoka", "jockey": "北村友一" }
+            { "horse": "インカルナータ", "memberId": "hiraoka", "jockey": "北村友一" }
           ],
           "consideration": [],
-          "comment": "依里のジーティーサクラ vs 平岡のインカルナータ（北村友）——今季最大の直接対決が実現するはずだが、ジーティーサクラは入厩せず回避の可能性も。インカルナータにとっては不戦勝でなく真剣勝負での「クラシック職人」証明を望む。G2は収得賞金対象の1〜2着——両者にとって今秋の正念場だ。",
+          "comment": "ジーティーサクラ（依里）が入厩せず出走回避となり、平岡のインカルナータ（北村友）が単独でG2に挑む——直接対決は幻となったが、むしろインカルナータにとっては今季最大の加点機会だ。G2 1〜2着は収得賞金対象、「クラシック職人」の実力を証明する一戦。",
           "classicRoadmapId": null
         }
       ]
@@ -105,7 +73,7 @@
             { "horse": "サンタンジェロ", "memberId": "aoki" }
           ],
           "consideration": [],
-          "comment": "フレグモーネからの長期休養を経て青木のサンタンジェロが1勝クラスに復帰——「覚醒の獅子」青木が3位奪還を狙う秋終盤の一手だ。",
+          "comment": "フレグモーネからの長期休養を経て青木のサンタンジェロが1勝クラスに復帰——「覚醒の獅子」青木が上位陣との差を縮める秋終盤の一手だ。",
           "classicRoadmapId": null
         },
         {
@@ -114,10 +82,11 @@
           "distance": "芝1400m",
           "raceName": "赤松賞（1勝クラス）",
           "horses": [
-            { "horse": "リリカルフレア", "memberId": "hirose" }
+            { "horse": "リリカルフレア", "memberId": "hirose" },
+            { "horse": "シルクドマルス",  "memberId": "aoki" }
           ],
           "consideration": [],
-          "comment": "廣瀬のリリカルフレアがサフラン賞4着からの巻き返しを狙う1勝クラス——青木のシルクドマルスも同レースが有力で、サフラン賞に続く直接対決となる可能性がある。",
+          "comment": "廣瀬のリリカルフレアと青木のシルクドマルスが東京芝1400m赤松賞で直接対決——サフラン賞でも対峙した両者が1勝クラスで再び相まみえる。廣瀬はニクスルーナに続く2頭目の活躍馬を、青木は上位陣追撃の起爆剤を求めて激突する。",
           "classicRoadmapId": null
         }
       ]
@@ -134,11 +103,11 @@
           "horses": [
             { "horse": "エルドボルグ",     "memberId": "yori", "jockey": "Cデムーロ" },
             { "horse": "ダノンダックス",   "memberId": "yori", "jockey": "ルメール" },
-            { "horse": "ジョドレルバンク", "memberId": "yori" },
+            { "horse": "ジョドレルバンク", "memberId": "yori", "jockey": "モレイラ（濃厚）" },
             { "horse": "オンユアマークス", "memberId": "yori", "jockey": "武豊" }
           ],
           "consideration": [],
-          "comment": "依里が4頭体制で東スポ2歳S（G2）に乗り込む異例の総攻撃——エルドボルグ（デムーロ）、ダノンダックス（ルメール）、ジョドレルバンク、オンユアマークス（武豊）。頭数での自家制覇が現実的な週だ。G2は収得賞金対象の1〜2着——依里の首位確立に向けた今秋最大の決戦。",
+          "comment": "依里が4頭体制で東スポ2歳S（G2）に乗り込む異例の総攻撃——エルドボルグ（デムーロ）、ダノンダックス（ルメール）、ジョドレルバンク（モレイラ濃厚）、オンユアマークス（武豊）と世界的名手が揃い踏み。ジーティーサクラの回避という痛手を、G2 4頭体制で取り返しにくる。G2 1〜2着が収得賞金対象——依里の首位確立に向けた今秋最大の決戦だ。",
           "classicRoadmapId": null
         }
       ]
@@ -199,17 +168,21 @@
     }
   ],
   "consideration": [
-    { "horse": "マテンロウアルカナ", "memberId": "yori",   "note": "未勝利4着・次走検討中" },
-    { "horse": "リボンロード",       "memberId": "hirose", "note": "新馬5着・11月福島で次走検討中" },
-    { "horse": "シルクドマルス",     "memberId": "aoki",   "note": "赤松賞(11/22)が有力" },
+    { "horse": "マテンロウアルカナ", "memberId": "yori",   "note": "帰厩済・次走検討中" },
+    { "horse": "レジューノワール",   "memberId": "kato",   "note": "帰厩済・11月デビュー検討中" },
+    { "horse": "サトノフルーク",     "memberId": "hirose", "note": "帰厩済・11月次走検討中" },
+    { "horse": "シアルナーレ",       "memberId": "yori",   "note": "1月中山で次走検討中" },
+    { "horse": "リボンロード",       "memberId": "hirose", "note": "帰厩せず・頓挫の可能性大" },
     { "horse": "オールシティキング", "memberId": "kato",   "note": "年明けデビュー検討中" }
   ],
   "withdrawn": [
+    { "horse": "ジーティーサクラ",   "memberId": "yori",   "reason": "入厩せず出走回避" },
+    { "horse": "ロジクラウン",       "memberId": "aoki",   "reason": "秋の予定白紙" },
+    { "horse": "チェスティーノ",     "memberId": "yori",   "reason": "ボーンシスト" },
     { "horse": "シャムリベルク",     "memberId": "hirose", "reason": "復帰運動中" },
     { "horse": "ベラジオパンテーラ", "memberId": "hirose", "reason": "骨折" },
     { "horse": "メアグローリア",     "memberId": "kato",   "reason": "骨折→復帰運動中" },
     { "horse": "ハッピーダイフゴー", "memberId": "kato",   "reason": "裂蹄悪化" },
-    { "horse": "イルリサット",       "memberId": "aoki",   "reason": "骨折" },
-    { "horse": "チェスティーノ",     "memberId": "yori",   "reason": "歩様の硬さ" }
+    { "horse": "イルリサット",       "memberId": "aoki",   "reason": "骨折" }
   ]
 }
